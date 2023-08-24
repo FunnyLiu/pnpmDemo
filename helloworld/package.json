@@ -1,0 +1,23 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install pnpm && ./node_modules/.bin/pnpm install typescript",
+    "build2": "npm install pnpm",
+    "build3": "npx pnpm install typescript"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-mockjs": "^4.6.2",
+    "mrgx": "^1.10.2",
+    "pnpm": "^8.6.12",
+    "react": "^18.2.0",
+    "typescript": "^5.1.6",
+    "vue": "^2.7.14"
+  }
+}
